@@ -1,4 +1,3 @@
-
 This project consists of an application used as a plugin for an ontology editor, and is composed of multiple elements. 
 It is a modular software program developed in Java, which uses OpenAi’s GPT 3 davinci language model for developing Functional Syntax axioms that are used to add components to a new or existing ontology.
 The presented plugin is created as a tab and displayed as a view component. 
