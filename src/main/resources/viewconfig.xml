@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="0.0 1.0">
+        <CNode>
+
+        </CNode>
+        <CNode>
+            <Component label="Generate ontology">
+                <Property id="pluginId" value="utcn.iva.gpt3.protege.ProtegeViewComponent"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>

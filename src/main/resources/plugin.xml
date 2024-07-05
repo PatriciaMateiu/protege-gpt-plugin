@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<plugin>
+
+    <extension id="CreateOntologyTab" point="org.protege.editor.core.application.WorkspaceTab">
+        <label value="Create ontologies"/>
+        <class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
+        <editorKitId value="OWLEditorKit"/>
+        <index value="X"/>
+        <defaultViewConfigFileName value="viewconfig.xml"/>
+        <protegeDefaultTab value="true"/>
+    </extension>
+
+    <extension id="ProtegeViewComponent" point="org.protege.editor.core.application.ViewComponent">
+        <label value="Generate ontology" />
+        <class value="utcn.iva.gpt3.protege.ProtegeView" />
+        <headerColor value="@org.protege.ontologycolor"/>
+        <category value="@org.protege.ontologycategory" />
+    </extension>
+
+</plugin>
